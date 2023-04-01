@@ -1,1 +1,23 @@
 /* This is the file for style */
+
+.navbar {
+    display: flex;
+    height: 10vh;
+    background-color: rgb(144, 175, 216);
+}
+
+.nav {
+    display: flex;
+    width: 50%;
+}
+
+.Title-nav {
+    color: crimson;
+    margin-left: 20vh;
+}
+
+.object-nav {
+    width: auto;
+    margin: auto;
+    color: black
+}
