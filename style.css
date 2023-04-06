@@ -1,9 +1,12 @@
+/*HEADER*/
+
 header {
-  background-color: #010614;
+  background-color: #050f2b;
   display: flex;
   align-items: center;
   height: 60px;
   padding: 0 20px;
+  font-family:'Schibsted Grotesk', sans-serif;
 }
 
 .logo {
@@ -60,4 +63,23 @@ nav a:hover::before {
   nav li {
     margin: 10px 0;
   }
+}
+
+/*BODY*/
+body {
+  color: white;
+  background-color: #010614;
+  margin: 0 140px;
+}
+
+#topbackground{
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family:'Schibsted Grotesk', sans-serif;
+  font-size: 54px;
 }
