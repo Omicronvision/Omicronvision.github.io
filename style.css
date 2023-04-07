@@ -6,7 +6,7 @@ header {
   align-items: center;
   height: 60px;
   padding: 0 20px;
-  font-family:'Schibsted Grotesk', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
 }
 
 .logo {
@@ -80,6 +80,7 @@ body {
 }
 
 h1 {
-  font-family:'Schibsted Grotesk', sans-serif;
+  font-family: 'Russo One', sans-serif;
+  font-weight: bold;
   font-size: 54px;
 }
