@@ -1,0 +1,161 @@
+/*HEADER*/
+
+header {
+  background-color: #050f2b;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+  position: relative;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  padding: 12px 15px;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #010614;
+}
+
+nav a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+  
+  nav li {
+    margin: 10px 0;
+  }
+}
+
+/*BODY*/
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #050f2b;
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-family: 'Signika Negative', sans-serif;
+  border-radius: 10px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #101d2c;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.image {
+  margin-right: 20px;
+}
+
+body {
+  color: white;
+  background-color: #010614;
+  margin: 0 220px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+}
+
+h3 {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #050f2b;
+  color: #FFFFFF;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo h2 {
+  margin: 0;
+  font-size: 20px;
+}
