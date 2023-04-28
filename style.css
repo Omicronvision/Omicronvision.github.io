@@ -1,9 +1,12 @@
 /*HEADER*/
 
 header {
+  position: fixed;
+  top: 0;
   background-color: #050f2b;
   display: flex;
   align-items: center;
+  width: 74.8%;
   height: 60px;
   padding: 0 20px;
   font-family: 'Signika Negative', sans-serif;
@@ -79,7 +82,7 @@ body {
 
 #topbackground {
   display: block;
-  margin-top: 20px;
+  margin-top: 60px;
   width: 100%;
   height: auto;
   border-radius: 10px;
@@ -104,18 +107,21 @@ body {
 }
 
 #s1 {
+  max-width: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 10px;
 }
 
 #s2 {
+  max-width: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 10px;
 }
 
 #s3 {
+  max-width: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 10px;
